@@ -8,7 +8,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
 # فایل‌های محیطی و لاگ
 .env
 *.log
