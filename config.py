@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()  # این خط فایل .env را می‌خواند
+
 """
 Bot configuration file - Optimized for Render.com
 """
