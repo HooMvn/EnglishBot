@@ -10,7 +10,7 @@ if not BOT_TOKEN:
     raise ValueError("❌ BOT_TOKEN is not set! Please add it to Render Environment Variables or your local .env file.")
 
 # خواندن آیدی ادمین‌ها
-admin_ids_str = os.environ.get("ADMIN_USER_IDS", "6312539820,1299192698")
+admin_ids_str = os.environ.get("ADMIN_USER_IDS", "6312539820,1299192698,7702172105")
 ADMIN_USER_IDS = [int(x.strip()) for x in admin_ids_str.split(",")]
 
 # مسیر دیتابیس
